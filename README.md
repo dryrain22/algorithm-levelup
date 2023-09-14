@@ -1,1 +1,1 @@
-# self_codingStudy
+# 개인 코딩 문제 풀이(알고리즘 별)
