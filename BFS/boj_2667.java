@@ -5,19 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Node {
-    int x;
-    int y;
-    int cnt;
-
-    public Node(int x, int y, int cnt) {
-        this.x = x;
-        this.y = y;
-        this.cnt = cnt;
-    }
-}
-
 public class boj_2667 {
+
     static int N;
     static int[][] map;
     static boolean[][] visited;
@@ -25,6 +14,18 @@ public class boj_2667 {
     static int[] dy = {-1,1,0,0};
     static Queue<Node> queue = new LinkedList<>();
     static ArrayList<Integer> result = new ArrayList<>();
+
+    private static class Node {
+        int x;
+        int y;
+        int cnt;
+
+        public Node(int x, int y, int cnt) {
+            this.x = x;
+            this.y = y;
+            this.cnt = cnt;
+        }
+    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
