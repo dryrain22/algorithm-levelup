@@ -2,7 +2,7 @@ package programmers.lv2;
 
 import java.util.*;
 
-class Solution {
+class Solution43105 {
     static int[][] dp;
 
     public int solution(int[][] triangle) {
