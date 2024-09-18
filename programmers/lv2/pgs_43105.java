@@ -1,4 +1,4 @@
-package DP;
+package programmers.lv2;
 
 import java.util.*;
 
