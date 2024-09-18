@@ -70,7 +70,7 @@ class Solution_1829 {
     }
 }
 
-public class test {
+public class prog_1829 {
     public static void main(String[] args) {
         Solution_1829 solution = new Solution_1829();
         System.out.println(Arrays.toString(solution.solution(6, 4,
