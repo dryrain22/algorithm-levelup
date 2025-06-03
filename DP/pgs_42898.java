@@ -2,7 +2,7 @@ package DP;
 
 import java.util.*;
 
-class Solution {
+class Solution2 {
     public int solution(int m, int n, int[][] puddles) {
         int[][] dp = new int[n][m];
 
